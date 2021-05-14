@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="80dp"
+    >
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="نام" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="رمز عبور"
+        android:inputType="textPassword"
+        android:layout_below="@id/editTextTextPersonName3"/>
+
+    <Button
+        android:id="@+id/mybtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ثبت نام"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/editTextTextPassword2"/>
+
+</RelativeLayout>
